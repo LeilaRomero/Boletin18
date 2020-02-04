@@ -29,6 +29,7 @@ public class Bol18_2y3 {
         obj.notaAlta(notas);
         obj.notaOrdenada(notas, nombre);
         obj.nota(notas, nombre);
+        obj.listaAprobados(notas, nombre);
         
     }    
 }

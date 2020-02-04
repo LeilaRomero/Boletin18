@@ -88,4 +88,14 @@ public class Metodos {
             break;
         }
     }
+    
+    public void listaAprobados(int[]nota,String[]nombre){
+        String []aprobados=new String[nota.length];
+        int j=0;
+        for(int i=0;i<nota.length;i++){
+            if(nota[i]>=5)
+                aprobados[j]=nombre[i];
+            j++;
+        }
+    }
 }
