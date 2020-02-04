@@ -45,7 +45,7 @@ public class Metodos {
         JOptionPane.showMessageDialog(null, "La media de la clase es de: " + media);
     }
 
-    public void notaAlata(int[] Lista) {
+    public void notaAlta(int[] Lista) {
         int notaAlta = 0;
         for (int i = 0; i < Lista.length - 1; i++) {
             if (Lista[i] > notaAlta) {
